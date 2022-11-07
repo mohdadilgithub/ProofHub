@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please, Check console for result this Qeustion</h1>
+    <button onclick="test_divi()">Click For console</button>
+    <script>
+        function test_divi(){
+    var sumOfeven=[];
+    var sumOfodd=[];
+    var i=1;
+    while(i<=100){
+        if(i%2==0){
+            sumOfeven.push(i);
+        }
+        else{
+            sumOfodd.push(i);
+        }
+    }
+    console.log(`This is the even ${sumOfeven},and odd ${sumOfodd}`);
+}
+    </script>
+</body>
+</html>

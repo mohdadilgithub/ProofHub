@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><h1>Qestion</h1>
+    <script>
+        function test_divi(low,high){
+            var sumOfeven;
+            var sumOfodd;
+            var i=low;
+            while(i<high){
+                if(i%2==0){
+                    sumOfeven +=i;
+                }
+                else{
+                    sumOfodd +=i;
+                }
+            }
+            console.log(sumOfeven);
+            console.log(sumOfodd);
+        }
+        console.log(test_divi(1,100));
+    </script>
+</body>
+</html>
